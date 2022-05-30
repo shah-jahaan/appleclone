@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    /* background: #f8e1e7; */
+}
+a {
+    text-decoration: none;
+}
+
+section {
+    height: 580px;
+}
+section h2 {
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+nav {
+    background: rgba(0,0,0,0.8);
+    position: fixed;
+    font-size: 14px;
+    width: 100vw;
+    top: 0;
+    height: 48px;
+    max-height: 44px;
+    /* margin-bottom: 144px; */
+    align-items: center;
+}
+nav .container {
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    overflow: hidden;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 44px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+nav ul li span i {
+    font-size: 20px;
+}
+
+nav li, nav ul li a {
+    list-style: none;
+}
+
+nav li span {
+    color: #f5f5f7;
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+}
+
+nav ul li a:hover span {
+    opacity: 1;
+}
+
+/* .shop-online {
+    background-color: #fbfbfd;
+    color: #1d1d1f;
+    height: 44px;
+    width: 100%;
+} */
+
+
+.hero-section {
+    background: url('hero1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    padding-top: 87px;
+    margin-bottom: 12px;
+}
+.hero-section h2 {
+    color: #1d1d1f;
+}
+.hero-section, .section2 h3 {
+    color: #1d1d1f;
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    margin-top: 6px;
+}
+.hero-section p {
+    color: #86868b;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    margin-top: 7px;
+}
+/* .hero-section, .section2 div {
+    margin-top: 10px;
+} */
+.hero-section a, .section3 a {
+    color: #06c;
+    font-size: 21px;
+}
+.btn1 {
+    margin-right: 50px;
+}
+.btn2 {
+    margin-left: -20px;
+}
+
+.hero-section div a:hover span, .section2 div a:hover span, .section3 div a:hover span, .grid .grid1 .cta a:hover span, .grid .grid2 a:hover span, .grid3 div a:hover span, .grid4 a:hover span, .grid5 a:hover span   {
+    text-decoration: underline;
+}
+
+
+.section2 {
+    background: url(section2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    padding-top: 47px;
+    margin-bottom: 12px;
+}
+.section2 h2 {
+    color: #f5f5f7;
+    font-size: 56px;
+
+}
+.section2 h3 {
+    color: #fec2eb;
+}
+
+.section3 h2 span img {
+    height: 56px;
+}
+.section2 p {
+    margin-top: 7px;
+    color: #86868b;
+    font-size: 17px;
+}
+.section2 a {
+    color: #2997ff;
+    font-size: 21px;
+}
+.section2 div {
+    margin-top: 10px;
+}
+
+
+.section3 {
+    background: url(watch.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 34px;
+    text-align: center;
+    margin-bottom: 12px;      
+}
+
+.section3 h3 {
+    color: #1d1d1f;
+}
+.section3 h3{
+    margin-top: 15px;
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+}
+.section3 p {
+    color: #86868b;
+    margin-top: 13px;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+}
+.section3 div {
+    margin-top: 9px;
+}
+.grid3, .grid4, .grid5, .grid6 {
+    margin-top: 12px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 1740px;
+    margin-bottom: 12px;
+}
+.grid div {
+    /* height: 580px; */
+}
+.grid1 {
+    background: url(grid1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    margin-right: 6px;
+}
+.grid .grid1 p {
+    color: #bf4800;
+}
+.grid .grid1 h4 {
+    max-width: 500px;
+    color: #1d1d1f;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.grid1 .cta {
+    margin-top: 6px;
+}
+.grid2 {
+    background: url(grid2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding-top: 44px;
+    margin-left: 6px;
+    align-items: center;
+    height: auto;
+}
+.grid2 h5 {
+    margin-top: 10px;
+}
+.grid2 p {
+    text-align: center;
+    margin-top: 8px;
+    color: #86868b;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.grid2 .cta {
+    margin-top: 7px;
+}
+.grid2 h5, .grid3 h5, .grid4 h5, .grid5 h5, .grid6 h5 {
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    /* margin-top: 60px; */
+}
+.grid1 a, .grid2 a, .grid3 a, .grid4 a, .grid5 a {
+    color: #06c;
+}
+.grid3 {
+    background: url(grid3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 6px;
+}
+.grid3 h4 {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    /* margin-top: 53px; */
+}
+.grid3 h5 {
+    margin-top: 4px;
+}
+.grid3 div, .grid4 div, .grid5 div {
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: .7em;
+    text-align: center;
+}
+
+.grid4 {
+    background: url(grid4.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 6px;
+}
+/* .grid4 .container {
+    width: 88%;
+    max-width: 430px;
+} */
+.grid4 h5 {
+    margin-top: 11px;
+    text-align: center;
+}
+.grid5 {
+    background: url(grid5.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 44px;
+    margin-right: 6px;
+}
+.grid5 h5 {
+    max-width: 290px;
+    margin-top: 10px;
+    text-align: center;
+}
+.grid1, .grid2, .grid3, .grid4, .grid5, .grid6 {
+    height: 580px;
+}
+.grid6 {
+    background: url(grid6.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 6px;
+}
+
+.grid6 .container {
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+    margin-top: 320px;
+    max-width: 430px;
+    align-items: center;
+    justify-content: flex-end;
+    
+    margin-bottom: 38px;
+}
+.grid6 .container .stream {
+    margin-top: 9px;
+}
+.grid6 a {
+    color: #fff;
+}
+footer {
+    margin-top: 36px;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    min-width: 1024px;
+    /* width: 100vw; */
+    overflow: hidden;
+    padding-bottom: 21px;
+}
+footer section {
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 12px 22px 12px 22px;
+    font-size: 12px;
+    color: #86868b;
+    background-color: #f5f5f7;
+    height: auto;
+}
+footer .container, footer .footer-shop {
+    border-bottom: 1px solid #d2d2d7;
+}
+footer #footer-menu {
+    padding: 17px 0 11px;
+}
+footer .container ul li {
+    list-style: none;
+    padding-bottom: 0.8em;
+}
+footer .footer-nav {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+footer .footer-nav div ul {
+    margin-right: 20px;
+}
+footer .footer-nav div ul li {   
+    list-style: none;
+    margin-bottom: .8em;
+}
+footer .footer-nav div h3 {
+    font-weight: 600;
+}
+footer .footer-nav div ul li a {
+    text-decoration: none;
+    color: #1d1d1f;
+}
+footer .footer-nav div ul li a:hover span {
+    text-decoration: underline;
+}
+footer .footer-legal {
+    color: #515154;
+    text-decoration: none;
+
+}
+footer .footer-legal .rights {
+    margin-right: 30px;
+    float: left;
+    margin-top: 5px;
+}
+footer .footer-legal .rights-link {
+    border-right: 1px solid #d2d2d7;
+    margin-right: 7px;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+footer .rights a span, footer .location a span {
+    color: #515154;
+}
+footer .location {
+    margin-top: 5px;
+    margin-left: 110px;
+}
+footer .footer-legal a:hover span, footer .location:hover {
+    text-decoration: underline;
+    color: #1d1d1f;
+}
